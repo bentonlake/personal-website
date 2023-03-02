@@ -1,2 +1,2 @@
 # personal-website
-The codebase for my personal website, a general experiment in different web frameworks.
+The codebase of my personal website. Written in Next.JS. 

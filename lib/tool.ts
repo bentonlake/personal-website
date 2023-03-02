@@ -1,0 +1,1 @@
+export type Tool = 'JavaScript' | 'TypeScript' | 'Next.JS';
