@@ -6,15 +6,15 @@ import SocialButton from '@/ui/SocialButton';
 import StyleControls from '@/ui/StyleControls';
 import ToolchainDisplay from '@/ui/ToolchainDisplay';
 
-import me from '@/public/images/me.jpg';
+import me from '@/public/images/me_tiara.jpg';
 
 import socialList from '@/lib/socials';
 import projectList from '@/lib/projects';
 
 export const metadata = {
-  title: 'Do anim minim consectetur',
+  title: 'Benton Lake | Dev-in-Training',
   description:
-    'Et in qui officia esse sunt. Dolor exercitation pariatur aliquip occaecat.',
+    'Benton Lake is an aspiring developer based in Northern Virginia. This is his personal, very cool, website.',
 };
 
 export default function Home() {
@@ -28,12 +28,13 @@ export default function Home() {
           priority
         />
         <div className="w-72">
-          <h1 className="text-2xl font-semibold">Lorem Ipsum</h1>
+          <h1 className="text-2xl font-semibold">Benton Lake</h1>
           <p className="text-md">
-            Fugiat id officia ex reprehenderit ut ullamco laboris eiusmod est
-            anim. Nisi amet aliquip labore sit sit id velit Lorem. Consectetur
-            irure tempor officia mollit reprehenderit elit laborum ipsum ea non
-            id.
+            Hey! I&apos;m an aspiring developer, currently prepping to go to
+            college and study Computer Science. In terms of experience, I am
+            most capable with JS/TS and the Next.JS metaframework, however I
+            have recently come to adore Rust. I love constantly exploring new
+            things; a topic I explore on my blog, <i>🥒 for the unknowing.</i>
           </p>
         </div>
         <div className="w-72 flex justify-center">
@@ -49,7 +50,7 @@ export default function Home() {
       <div className="flex flex-col gap-2">
         <header className="border-b border-gray-200 dark:border-gray-800 p-2 flex items-center">
           <div>
-            <h2 className="font-semibold">Lorem Ipsum</h2>
+            <h2 className="font-semibold">Projects</h2>
           </div>
           <div className="ml-auto">
             <StyleControls />

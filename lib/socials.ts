@@ -7,7 +7,6 @@ const SOCIALS: Social[] = [
   { name: 'mail', href: 'mailto:benton@bentonlake.dev' },
   { name: 'github', href: 'https://github.com/bentonlake' },
   { name: 'linkedin', href: 'https://www.linkedin.com/in/benton-lake-2b93b8268' },
-  { name: 'youtube', href: '#' }
 ];
 
 export default SOCIALS;

@@ -10,7 +10,7 @@ function ToolItem({ name }: { name: string }) {
 
 export default function ToolchainDisplay({ toolchain }: { toolchain: Tool[] }) {
   return (
-    <ul className="flex gap-2 list-none">
+    <ul className="flex flex-wrap gap-2 list-none">
       {toolchain.map((tool, i) => (
         <ToolItem key={i} name={tool} />
       ))}
