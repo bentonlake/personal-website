@@ -12,11 +12,17 @@ export default function SocialButton({
     <Link
       href={href}
       prefetch={false}
-      className="rounded-md hover:bg-gray-300 p-1"
+      className="rounded-md hover:bg-gray-300 p-1 dark:hover:bg-gray-700"
       target="_blank"
       rel="nofollow"
     >
-      <Image src={`/icons/${src}.svg`} alt={src} width={40} height={40} />
+      <Image
+        src={`/icons/${src}.svg`}
+        alt={src}
+        width={40}
+        height={40}
+        className="dark:invert"
+      />
     </Link>
   );
 }

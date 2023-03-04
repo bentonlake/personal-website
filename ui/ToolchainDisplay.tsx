@@ -2,7 +2,7 @@ import { Tool } from '@/lib/tool';
 
 function ToolItem({ name }: { name: string }) {
   return (
-    <li className="rounded-r-full rounded-l-full border border-gray-300 px-2 py-1 text-xs font-mono text-gray-600">
+    <li className="rounded-r-full rounded-l-full border border-gray-300 dark:border-gray-700 px-2 py-1 text-xs font-mono text-gray-400">
       {name}
     </li>
   );

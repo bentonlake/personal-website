@@ -19,7 +19,7 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <main className="flex justify-center flex-col md:flex-row md:max-h-screen p-1 sm:p-6 gap-4">
+    <main className="flex justify-center flex-col md:flex-row md:max-h-screen p-1 sm:p-6 gap-4 dark:bg-gray-900 dark:text-gray-300">
       <section className="flex flex-col items-center gap-4">
         <Avatar
           src={me}
@@ -47,7 +47,7 @@ export default function Home() {
         </div>
       </section>
       <div className="flex flex-col gap-2">
-        <header className="border-b border-gray-200 p-2 flex">
+        <header className="border-b border-gray-200 dark:border-gray-800 p-2 flex items-center">
           <div>
             <h2 className="font-semibold">Lorem Ipsum</h2>
           </div>
@@ -74,7 +74,7 @@ export default function Home() {
                 prefetch={false}
                 target="_blank"
                 rel="nofollow"
-                className="rounded-md bg-black hover:bg-gray-700 flex justify-center"
+                className="rounded-md bg-black hover:bg-gray-700 dark:hover:bg-gray-600 flex justify-center"
                 title="View source code"
               >
                 <Image
