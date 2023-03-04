@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "rewrites": [{
+      "source": "**",
+      "run": {
+        "serviceId": "personal-website",
+        "region": "us-east4"
+      }
+    }]
+  }
+}
