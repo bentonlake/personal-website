@@ -13,18 +13,18 @@ const PROJECTS: Project[] = [
   { 
     name: 'My Personal Website', 
     description: 'This very website was my first major venture into a larger personal project! It employs severable scalable, production-ready technologies built for the cloud and almost serves as a testing ground for new tools that I\'d like to try out.', 
-    href: 'https://bentonlake.dev', 
+    href: 'https://www.bentonlake.dev', 
     github: 'https://github.com/bentonlake/personal-website',
-    favicon: '/android-chrome-192x192.png',
-    toolchain: [ 'Next.JS', 'TypeScript', 'TailwindCSS', 'Git', 'Firebase', 'Cloud Run', 'G Analytics', 'G Cloud' ],
+    favicon: '/main_favicon.png',
+    toolchain: [ 'Next.JS', 'TypeScript', 'TailwindCSS', 'Git', 'Firebase', 'Cloud Run', 'G Cloud' ],
   },
   {
-    name: '🥒 for the unknowing.',
+    name: 'Pickle for the Unknowing',
     description: 'A blog of brief lectures about whatever I happen to find interesting at the time. Content ranges from the science of the refrigeration cycle to discussion on the future of electric cars. A marketplace for my freeflowing ideas, opinions, and ponderings. This blog will eventually be moved off of the main site and onto a subdomain, prompting the second project item.',
-    href: 'https://google.com',
-    github: 'https://github.com/bentonlake/personal-website',
-    favicon: '/android-chrome-192x192.png',
-    toolchain: [],
+    href: 'https://pickle.bentonlake.dev',
+    github: 'https://github.com/bentonlake/pickle-for-the-unknowing',
+    favicon: '/pickle_favicon.png',
+    toolchain: [ 'Next.JS', 'TypeScript', 'TailwindCSS', 'Git', 'Firebase', 'Cloud Run', 'G Cloud' ],
   },
 ]
 

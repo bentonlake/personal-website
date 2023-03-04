@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 import Avatar from '@/ui/Avatar';
-import SocialButton from '@/ui/SocialButton';
+import { DefaultSocials } from '@/ui/SocialButton';
 import StyleControls from '@/ui/StyleControls';
 import ToolchainDisplay from '@/ui/ToolchainDisplay';
 
@@ -10,6 +10,7 @@ import me from '@/public/images/me_tiara.jpg';
 
 import socialList from '@/lib/socials';
 import projectList from '@/lib/projects';
+import { lobster } from '@/lib/fonts';
 
 export const metadata = {
   title: 'Benton Lake | Dev-in-Training',
@@ -33,18 +34,13 @@ export default function Home() {
             Hey! I&apos;m an aspiring developer, currently prepping to go to
             college and study Computer Science. In terms of experience, I am
             most capable with JS/TS and the Next.JS metaframework, however I
-            have recently come to adore Rust. I love constantly exploring new
-            things; a topic I explore on my blog, <i>🥒 for the unknowing.</i>
+            have recently come to adore Rust. I love learning new things - a
+            topic I explore on my blog,{' '}
+            <span className={lobster.className}>Pickle for the Unknowing</span>
           </p>
         </div>
         <div className="w-72 flex justify-center">
-          {socialList.map((social) => (
-            <SocialButton
-              key={social.name}
-              href={social.href}
-              src={social.name}
-            />
-          ))}
+          <DefaultSocials />
         </div>
       </section>
       <div className="flex flex-col gap-2">

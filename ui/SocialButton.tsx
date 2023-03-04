@@ -1,6 +1,18 @@
 import Link from 'next/link';
 import Image from 'next/image';
 
+import socialList from '@/lib/socials';
+
+export function DefaultSocials() {
+  return (
+    <>
+      {socialList.map((social) => (
+        <SocialButton key={social.name} href={social.href} src={social.name} />
+      ))}
+    </>
+  );
+}
+
 export default function SocialButton({
   href,
   src,
