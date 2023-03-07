@@ -1,2 +1,2 @@
 # Personal Website
-The codebase of my personal website. Written in Next.JS and deployed automatically to Google Cloud Run as a docker container. Container is then connected to the domain [bentonlake.dev](www.bentonlake.dev) via Firebase Hosting. 
+The codebase of my personal website. Written in Next.JS and deployed automatically to Google Cloud Run as a docker container. The container is then connected to the domain [bentonlake.dev](https://www.bentonlake.dev) via Firebase Hosting. 
