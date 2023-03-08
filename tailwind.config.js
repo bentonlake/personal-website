@@ -6,7 +6,11 @@ module.exports = {
     './ui/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'layered-waves-1': "url('/backgrounds/layered_waves_1.svg')",
+      },
+    },
   },
   plugins: [],
   darkMode: 'class',
