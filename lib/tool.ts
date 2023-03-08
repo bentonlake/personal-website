@@ -1,1 +1,0 @@
-export type Tool = 'JavaScript' | 'TypeScript' | 'Next.JS' | 'TailwindCSS' | 'Git' | 'G Cloud' | 'Compute Engine' | 'Cloud Run' | 'Firebase' | 'G Analytics' | 'G Ads' | 'Lorem' | 'Ipsum';
